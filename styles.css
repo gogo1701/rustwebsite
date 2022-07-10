@@ -1,9 +1,7 @@
-
-body {margin:0;
-    background-color:#0B0721;
-    padding-top: 150px;
-
-
+body {
+  margin: 0;
+  background-color: #0B0721;
+  margin-top: 80px;
 }
 
 ul {
@@ -16,7 +14,6 @@ ul {
   top: 0;
   width: 100%;
   z-index: 999;
-
 }
 
 li {
@@ -29,10 +26,9 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px 100px;
-  font-size: 50px;
+  padding: 10px 100px;
+  font-size: 40px;
   text-decoration: none;
-
 }
 
 li a:hover:not(.active) {
@@ -42,9 +38,19 @@ li a:hover:not(.active) {
 .active {
   background-color: #1E00B3;
 }
+
 .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+* {
+  transition: all 0.3s;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
